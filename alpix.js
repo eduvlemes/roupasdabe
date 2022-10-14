@@ -18,7 +18,7 @@ $(window).load(function(){
     $('#search-form > img').before('<span class="svg-ico">'+ ico_sear +'</span>').remove();
 
     
-    $('.pagina-produto .cover').closest('.span7').append('<div class="apx_share a2a_kit a2a_kit_size_32 a2a_default_style a2a_follow"><span>Compartilhe:</span><a class="a2a_button_whatsapp"></a><a class="a2a_button_facebook></a><a class="a2a_button_instagram"></a><a class="a2a_button_pinterest"></a></div><script async src="https://static.addtoany.com/menu/page.js"></script>');
+    $('.pagina-produto .cover').closest('.span7').append('<div class="apx_share a2a_kit a2a_kit_size_32 a2a_default_style a2a_follow"><span>Compartilhe:</span><a class="a2a_button_whatsapp"></a><a class="a2a_button_facebook"></a><a class="a2a_button_instagram"></a><a class="a2a_button_pinterest"></a></div><script async src="https://static.addtoany.com/menu/page.js"></script>');
 
     $('#add-to-wishlist').appendTo('.apx_share');
     
