@@ -23,8 +23,9 @@
     width: 100%;
     box-sizing: border-box;
     font-size: 14px;
+    display:none!important;
 }
-
+.botao-comprar:hover + div + .apx_popover{display:block!important}
 #store-menu .svg-ico{display:inline-block;line-height:0}
 #search-form .svg-ico{margin-right:5px;}
 #search-form .svg-ico svg,
@@ -236,6 +237,18 @@ html body.pagina-inicial #overlay-menu{top:124px;}
         max-width: 100%!important;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    #listagemProdutos .icone-favorito{top:10px;right:10px}
+
+    #menu-mobile .top .carrinho-mobile .qtd-carrinho{
+        padding: 0;
+        top: -5px;
+        right: -5px;
+        height: 16px;
+        width: 16px;
+        line-height: 16px;
+        font-size: 9px;
     }
 }
 

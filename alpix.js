@@ -18,7 +18,7 @@ $(window).load(function(){
     $('#search-form > img').before('<span class="svg-ico">'+ ico_sear +'</span>').remove();
 
     
-    $('.pagina-produto .cover').closest('.span7').append('<div class="apx_share a2a_kit a2a_kit_size_32 a2a_default_style a2a_follow"><span>Compartilhe:</span><a class="a2a_button_twitter" data-a2a-follow="AddToAny"></a><a class="a2a_button_facebook" data-a2a-follow="AddToAny"></a><a class="a2a_button_instagram" data-a2a-follow="kevin"></a><a class="a2a_button_pinterest" data-a2a-follow="Pinterest"></a></div><script async src="https://static.addtoany.com/menu/page.js"></script>');
+    $('.pagina-produto .cover').closest('.span7').append('<div class="apx_share a2a_kit a2a_kit_size_32 a2a_default_style a2a_follow"><span>Compartilhe:</span><a class="a2a_button_whatsapp"></a><a class="a2a_button_facebook></a><a class="a2a_button_instagram"></a><a class="a2a_button_pinterest"></a></div><script async src="https://static.addtoany.com/menu/page.js"></script>');
 
     $('#add-to-wishlist').appendTo('.apx_share');
     
@@ -31,7 +31,7 @@ $(window).load(function(){
         $('#toggle-mobile, #toggle-mobile + button').wrapAll('<div class="mobile-group start"></div>');
         $('.logo-mobile + a, .carrinho-mobile').wrapAll('<div class="mobile-group end"></div>');
 
-        $('.pagina-produto .acoes-produto .comprar a[href="javascript:;"]').before('<span class="apx_popover">Por favor, selecione o tamanho desejado!</span>')
+        $('.pagina-produto .acoes-produto .comprar a[href="javascript:;"]').after('<span class="apx_popover">Por favor, selecione o tamanho desejado!</span>')
 
         $('.logo-mobile + .end > a:first-child > img').before('<span class="svg-ico">'+ ico_user +'</span>').remove();
         $('.carrinho-mobile').prepend('<span class="svg-ico">'+ ico_cart +'</span>');
@@ -61,6 +61,7 @@ $(window).load(function(){
                     clickable: true
                 }
             });
+            swiper_.destroy(true,true)
         });
 
        
@@ -81,6 +82,7 @@ $(window).load(function(){
                 }
             });
         });
+        swiper_.destroy(true,true)
         $('.performa-image-vitrine img').onload(function(){
             let url = $(this).attr('data-src').replace('350x350/','550x550/');
             $(this).attr('src',url);
