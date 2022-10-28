@@ -18,7 +18,7 @@ $(window).load(function(){
     $('#search-form > img').before('<span class="svg-ico">'+ ico_sear +'</span>').remove();
 
     
-    $('.pagina-produto .cover').closest('.span7').append('<div class="apx_share"><span>Compartilhe:</span><a class="a2a_button_whatsapp" target="_blank" href="https://wa.me/?text='+ window.location.href +'"></a><a class="a2a_button_facebook" target="_blank" href="http://www.facebook.com/share.php?u='+ window.location.href +'"></a><a class="a2a_button_twitter" target="_blank" href="https://twitter.com/intent/tweet?text='+window.location.href+'"></a><a class="a2a_button_email" target="_blank" href="mailto:?body='+window.location.href+'"></a><a class="a2a_button_sms"  target="_blank" href="sms:?body='+window.location.href+'"></a></div><script async src="https://static.addtoany.com/menu/page.js"></script>');
+    $('.pagina-produto .cover').closest('.span7').append('<div class="apx_share"><span>Compartilhe:</span><a class="a2a_button_whatsapp" target="_blank" href="https://wa.me/?text='+ window.location.href +'"><i class="fa fa-whatsapp"></i></a><a class="a2a_button_facebook" target="_blank" href="http://www.facebook.com/share.php?u='+ window.location.href +'"><i class="fa fa-facebook"></i></a><a class="a2a_button_twitter" target="_blank" href="https://twitter.com/intent/tweet?text='+window.location.href+'"><i class="fa fa-twitter"></i></a><a class="a2a_button_email" target="_blank" href="mailto:?body='+window.location.href+'"><i class="fa fa-envelope"></i></a><a class="a2a_button_sms"  target="_blank" href="sms:?body='+window.location.href+'"><i class="fa fa-commenting"></i></a></div>');
 
     $('#add-to-wishlist').appendTo('.apx_share');
     
